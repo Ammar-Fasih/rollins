@@ -1,0 +1,51 @@
+:root {
+
+    --bg-color: rgb(218, 49, 0);
+
+
+}
+
+.container{
+    padding: 0 7vw;
+}
+
+.x-small {
+    font-size: x-small;
+}
+
+.xx-small {
+    font-size: xx-small;
+}
+
+button {
+    width: fit-content;
+    padding: 14px 30px;
+    /* min-width: 10vw;
+        height: 6vh; */
+    /* align-self: center; */
+    font-size: xx-small;
+    border: 0ch;
+    color: white;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+
+button:hover {
+    /* font-weight: 700; */
+    filter: brightness(80%);
+}
+
+.form-t1 {
+    margin: 0 0;
+    color: black;
+    font-weight: bold;
+    font-size: x-small;
+    text-align: center;
+}
+
+.form-t1-formfield {
+    background-color: rgb(209, 209, 209);
+    padding: 10px 10px;
+    border: 0ch;
+}
